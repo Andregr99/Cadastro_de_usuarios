@@ -1,0 +1,116 @@
+:root {
+    --primary-color: #007dbb;
+    --text-color: #ffffff;
+    --text-color-2: #000;
+    --text-color-3: #777;
+    --main-font: "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+    font-family: var(--main-font);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+#header {
+    background-color: var(--primary-color);
+height: 75px;
+align-items: center;
+display: flex;
+}
+
+#header_text {
+    color: var(--text-color);
+    padding-left: 20px;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 2em;
+    gap: 2em;
+}
+
+#cadastroForm{
+    display: flex;
+        gap: 1em;
+        flex-direction: column;
+}
+
+.placeholder{
+    height: 26px;
+    border-radius: 0 ;
+    padding: .25rem 1.5rem .25rem 1rem ;
+    background-color: transparent;
+    font-weight: 400;
+    color: var(--text-color-2);
+    border-top: 0px solid var(--text-color-2) ;
+border-right: 0px solid var(--text-color-2) ;
+border-bottom: 1px solid var(--text-color-2) ;
+border-left: 0px solid var(--text-color-2) ;
+width: 300px;
+}
+
+.placeholder:focus-visible {
+    border-bottom: 1px solid var(--text-color-2);
+    outline: none;
+}
+
+#button{
+    height: 40px;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#button:hover{
+    background-color: #0E76A8;
+}
+
+/*TABELA*/
+
+#tabela {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: sans-serif; 
+}
+
+#tabela th,
+#tabela td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+#tabela th {
+    background-color: #f2f2f2; 
+    font-weight: bold; 
+    text-transform: uppercase;
+}
+
+#tabela tr:nth-child(even) {
+    background-color: #f9f9f9; 
+}
+
+#tabela tr:hover {
+background-color: #e0e0e0; 
+}
+
+#tab-title{
+    justify-content: center;
+    display: flex;
+    padding-bottom: 1em;
+}

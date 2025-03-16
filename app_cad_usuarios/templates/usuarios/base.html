@@ -1,0 +1,21 @@
+{% load static %}
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cadastre-me!</title>
+    <link rel="icon" href="/static/app_cad_usuarios/assets/blue_a.ico" type="image/x-icon">
+    <link rel="stylesheet" href="{% static 'app_cad_usuarios/css/base.css' %}"> </head>
+<body>
+    <header id="header">
+        <nav>
+            <a id="header_text" href="{% url 'home' %}">Cadastre-me!</a>
+        </nav>
+    </header>
+    <main id="container">
+        {% block conteudo %}
+        {% endblock %}
+    </main>
+</body>
+</html>
