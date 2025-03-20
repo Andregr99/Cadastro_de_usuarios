@@ -6,7 +6,9 @@ Este projeto **Django** implementa um sistema de cadastro de usuários com um fo
 ## ⚙️ **Funcionalidades**  
 
 ✅ Formulário de cadastro: Permite a inserção de nome e idade do usuário.
+
 ✅ Listagem de usuários: Exibe os dados dos usuários cadastrados em uma tabela.  
+
 ✅ Validação de dados: Garante que os dados inseridos no formulário sejam válidos.  
 
 
